@@ -9,7 +9,7 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import Rounded from '../../common/RoundedButton';
 import Magnetic from '../../common/Magnetic';
 
-export default function index() {
+export default function Header() {
     const header = useRef(null);
     const [isActive, setIsActive] = useState(false);
     const pathname = usePathname();
@@ -39,8 +39,8 @@ export default function index() {
                 <p className={styles.copyright}>©</p>
                 <div className={styles.name}>
                     <p className={styles.codeBy}>Code by</p>
-                    <p className={styles.dennis}>Dennis</p>
-                    <p className={styles.snellenberg}>Snellenberg</p>
+                    <p className={styles.dennis}>Apex</p>
+                    <p className={styles.snellenberg}>Intro</p>
                 </div>
             </div>
             <div className={styles.nav}>

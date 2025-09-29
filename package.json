@@ -5,8 +5,11 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "build:prod": "NODE_ENV=production next build",
     "start": "next start",
-    "lint": "next lint"
+    "start:prod": "NODE_ENV=production next start -p 3000",
+    "lint": "next lint",
+    "export": "next export"
   },
   "dependencies": {
     "eslint": "8.45.0",
